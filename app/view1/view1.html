@@ -1,0 +1,8 @@
+<div ng-controller="View1Ctrl">
+    <div va-time-range>
+        <timepicker name="startTime" ng-model="startTime" hour-step="hstep" minute-step="mstep" show-meridian="ismeridian"></timepicker>
+        <timepicker name="endTime" ng-model="endTime" hour-step="hstep" minute-step="mstep" show-meridian="ismeridian"></timepicker>
+        <alert type="danger" ng-hide="isCollectRange">時間の範囲が不正です</alert>
+    </div>
+</div>
+
